@@ -12,7 +12,7 @@
   padding: 0;
   width: 375px;
   height: 550px;
-  background-image: url(../images/mobile/mobile-bg-girl-x1.jpg);
+  background-image: url(../img/mobile/mobile-bg-girl-x1.jpg);
   background-color: #ffff;
   background-position: center;
   background-repeat: no-repeat;
@@ -108,7 +108,7 @@
   screen and (min-resolution: 2dppx),
   screen and (min-device-pixel-ratio: 2) {
   .hero-section {
-    background-image: url(../images/mobile/mobile-bg-girl-x2.jpg);
+    background-image: url(../img/mobile/mobile-bg-girl-x1.jpg);
   }
 }
 
@@ -133,7 +133,7 @@
     padding: 0;
     height: 776px;
     width: 768px;
-    background-image: url(../images/tablet/tablet-bg-girl-x1.jpg);
+    background-image: url(../img/tablet/tablet-bg-girl-x1.jpg);
     background-color: #ffff;
     background-position: center;
     background-repeat: no-repeat;
@@ -146,7 +146,7 @@
     display: flex;
     flex-direction: column-reverse;
     background-color: var(--dark);
-    background-image: url(../images/desk1280/Desk1440-1280-tablet-form-ornament-x1.png);
+    background-image: url(../img/tablet/Desk1440-1280-tablet-form-ornament-x1.png);
     background-size: 325px 484px;
     background-repeat: no-repeat;
     background-position-x: -3px;
@@ -183,7 +183,7 @@
   screen and (min-resolution: 2dppx),
   screen and (min-device-pixel-ratio: 2) {
   .hero-section {
-    background-image: url(../images/tablet/tablet-bg-girl-x2.jpg);
+    background-image: url(../img/tablet/tablet-bg-girl-x2.jpg);
   }
 }
 /*################### desktop style #########################*/
@@ -196,7 +196,7 @@
   .order-sectiom-main-img {
     height: 776px;
     width: 1280px;
-    background-image: url(../images/desk1280/Desk1280-bg-girl-x1.jpg);
+    background-image: url(../img/desk1280/Desk1280-bg-girl-x1.jpg);
     background-color: #ffff;
     background-position: center;
     background-repeat: no-repeat;
@@ -227,6 +227,6 @@
   screen and (min-resolution: 2dppx),
   screen and (min-device-pixel-ratio: 2) {
   .hero-section {
-    background-image: url(../images/desk1280/Desk1280-bg-girl-x2.jpg);
+    background-image: url(../img/desk1280/Desk1280-bg-girl-x2.jpg);
   }
 }
