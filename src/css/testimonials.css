@@ -7,7 +7,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 300px;
+    width: 260px;
     gap: 8px;
     margin-left: auto;
     margin-right: auto;
@@ -24,7 +24,7 @@
 
 .testimonials-list-item {
     display: flex;
-    width: 335px;
+    max-width: 335px;
     padding: 0px 18px 18px 18px;
     flex-direction: column;
     align-items: center;
@@ -42,9 +42,11 @@
 }
 
 .testimonials-text {
+    font-size: 14px;
     font-weight: 400;
     line-height: normal;
     color: rgba(252, 249, 249, 0.4);
+    text-align: center;
 }
 
 .icon-wrap {
@@ -80,16 +82,28 @@
     .tablet-version {
         display: flex;
     }
+
+    .testimonials-text {
+        font-size: 16px;
+    }
+
+    .testimonials-text-container {
+        width: 273px;
+    }
 }
 
 /*=======TESTIMONIALS TABLET STYLES======*/
 
 /*=======TESTIMONIALS DESKTOP STYLES======*/
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1280px) {
 
     .desktop-version {
         display: flex;
+    }
+
+    .testimonials-text-container {
+        width: 277px;
     }
 }
 
