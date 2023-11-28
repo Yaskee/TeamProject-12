@@ -33,3 +33,31 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+address {
+  font-style: normal;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(252, 249, 249, 0.40);
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.04em;
+  background-color: #1C2225;
+}
