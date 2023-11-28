@@ -1,7 +1,7 @@
 /* ============== FOOTER MOBILE STYLES ============== */
 .page-footer {
     background-color: var(--dark);
-    background-image: url(../../../mobile/mobile-footer-orn-x1.pn);
+    background-image: url(../img/mobile/mobile-footer-orn-x1.png);
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: contain;
@@ -68,10 +68,10 @@
 }
 
 @media screen and (min-resolution: 192dpi) and (max-width: 767px),
-screen and (min-resoluyion: 2dppx) and (max-width: 767px),
-screen and (min-divace-pixel-ratio: 2) and (max-width: 767px) {
+screen and (min-resolution: 2dppx) and (max-width: 767px),
+screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px) {
     .page-footer {
-        background-image: url(./images/mobile-footer-orn-x2.png);
+        background-image: url(../img/mobile/mobile-footer-orn-x2.png);
     }
 }
 
@@ -107,18 +107,18 @@ screen and (min-divace-pixel-ratio: 2) and (max-width: 767px) {
 
     .page-footer {
         background-color: var(--dark);
-        background-image: url(./images/tablet-footer-ornament-x1.png);
+        background-image: url(../img/tablet/tablet-footer-ornament-x1.png);
         background-repeat: no-repeat;
         background-position: right top;
         background-size: 176px 370px;
     }
 }
 
-@media screen and (min-resolution: 192dpi) and (max-width: 1279px),
-screen and (min-resoluyion: 2dppx) and (max-width: 1279px),
-screen and (min-divace-pixel-ratio: 2) and (max-width: 1279px) {
+@media screen and (min-resolution: 192dpi) and (min-width: 768px),
+screen and (min-resolution: 2dppx) and (min-width: 768px),
+screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px) {
     .page-footer {
-        background-image: url(./images/tablet-footer-ornament-x2.png);
+        background-image: url(../img/tablet/tablet-footer-ornament-x2.png);
     }
 }
 
@@ -135,7 +135,7 @@ screen and (min-divace-pixel-ratio: 2) and (max-width: 1279px) {
 
     .page-footer {
         background-color: var(--dark);
-        background-image: url(../../img/desk1280/Desk1440-1280-footer-ornament-x1.png);
+        background-image: url(../img/desk1280/Desk1440-1280-footer-ornament-x1.png);
         background-repeat: no-repeat;
         background-position: right top;
         background-size: 334px 370px;
@@ -143,9 +143,9 @@ screen and (min-divace-pixel-ratio: 2) and (max-width: 1279px) {
 }
 
 @media screen and (min-resolution: 192dpi) and (min-width: 1280px),
-screen and (min-resoluyion: 2dppx) and (min-width: 1280px),
-screen and (min-divace-pixel-ratio: 2) and (min-width: 1280px) {
+screen and (min-resolution: 2dppx) and (min-width: 1280px),
+screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1280px) {
     .page-footer {
-        background-image: url(./images/Desk1440-1280-footer-ornament-x2.png);
+        background-image: url(../img/desk1280/Desk1440-1280-footer-ornament-x2.png);
     }
 }
