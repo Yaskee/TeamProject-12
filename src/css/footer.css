@@ -1,0 +1,151 @@
+/* ============== FOOTER MOBILE STYLES ============== */
+.page-footer {
+    background-color: var(--dark);
+    background-image: url(../../../mobile/mobile-footer-orn-x1.pn);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+    border-top: 1px solid rgba(252, 249, 249, 0.10);
+}
+
+.footer-conteiner {
+    padding-top: 40px;
+    min-height: 649px;
+}
+
+.nav-menu-list {
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.3;
+    text-transform: uppercase;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-menu-list:hover,
+.nav-menu-list:focus {
+    color: var(--yellow);
+}
+
+.nav-menu-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 40px;
+    row-gap: 25px;
+}
+
+.first-colum {
+    max-width: 116px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 25px;
+}
+
+.second-colum {
+    max-width: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 25px;
+}
+
+.text-footer {
+    color: var(--white);
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    margin-bottom: 80px;
+}
+
+.nav-footer {
+    margin-bottom: 40px;
+}
+
+.text-accent {
+    color: var(--yellow);
+}
+
+@media screen and (min-resolution: 192dpi) and (max-width: 767px),
+screen and (min-resoluyion: 2dppx) and (max-width: 767px),
+screen and (min-divace-pixel-ratio: 2) and (max-width: 767px) {
+    .page-footer {
+        background-image: url(./images/mobile-footer-orn-x2.png);
+    }
+}
+
+/* ============== FOOTER TABLET STYLES ============== */
+@media screen and (min-width: 768px) {
+    .nav-menu-footer {
+        gap: 25px;
+    }
+
+    .first-colum {
+        max-width: none;
+        flex-wrap: nowrap;
+        gap: 25px;
+    }
+
+    .second-colum {
+        max-width: none;
+        flex-wrap: nowrap;
+        gap: 25px;
+    }
+
+    .nav-footer {
+        margin-bottom: 80px;
+    }
+
+    .text-footer {
+        font-size: 54px;
+        line-height: 1.2;
+        letter-spacing: -0.03;
+        max-width: 521px;
+        margin-bottom: 40px;
+    }
+
+    .page-footer {
+        background-color: var(--dark);
+        background-image: url(./images/tablet-footer-ornament-x1.png);
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-size: 176px 370px;
+    }
+}
+
+@media screen and (min-resolution: 192dpi) and (max-width: 1279px),
+screen and (min-resoluyion: 2dppx) and (max-width: 1279px),
+screen and (min-divace-pixel-ratio: 2) and (max-width: 1279px) {
+    .page-footer {
+        background-image: url(./images/tablet-footer-ornament-x2.png);
+    }
+}
+
+/* ============== FOOTER DESCTOP_1280 STYLES ============== */
+@media screen and (min-width: 1280px) {
+    .nav-footer {
+        margin-bottom: 117px;
+    }
+
+    .text-footer {
+        font-size: 64px;
+        min-width: 754px;
+    }
+
+    .page-footer {
+        background-color: var(--dark);
+        background-image: url(../../img/desk1280/Desk1440-1280-footer-ornament-x1.png);
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-size: 334px 370px;
+    }
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 1280px),
+screen and (min-resoluyion: 2dppx) and (min-width: 1280px),
+screen and (min-divace-pixel-ratio: 2) and (min-width: 1280px) {
+    .page-footer {
+        background-image: url(./images/Desk1440-1280-footer-ornament-x2.png);
+    }
+}
