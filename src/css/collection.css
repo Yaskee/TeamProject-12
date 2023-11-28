@@ -117,9 +117,12 @@
     }
   }
   .section-collection {
-    background-image: url(./images/mobile/mobile-collection-orn-x1.png);
+    background-image: url(./img/mobile/mobile-collection-orn-x1.png);
     background-repeat: no-repeat;
-  }
+    background-position-x: right; /* Горизонтально вправо */
+  background-position-y: bottom; /* Вертикально вниз */
+}
+ 
   
   .collection-square {
     top: 233px;
