@@ -1,0 +1,55 @@
+<section class="form section">
+    <div class="container">
+        <div class="order-sectiom-main-img">
+        </div>
+        <div class="container-order-form" id="customer-order">
+            <div class="order-img-container">
+                <img class="order-img-container-pic" srcset="
+                        ./images/tablet/tablet-form-x1.jpg              638w,
+                        ./images/tablet/tablet-form-x2.jpg              1276w,
+                        ./images/desk1280/Desk1440-1280-form-x1.jpg    524w,    
+                        ./images/desk1280/Desk1440-1280-form-x2.jpg   1048w"
+                    sizes="(min-width: 1280px) 524px, (min-width: 768px) 638px"
+                    src="./images//desk1280/Desk1440-1280-form-x1.jpg " alt="embroidered shirt">
+            </div>
+            <div class="order-form">
+                <h2 class="order-form-title">
+                    Your order
+                    <span class="order-form-title-span">
+                        is our priority: Personalized approach and quality of service
+                    </span>
+                </h2>
+                <form class="order-form">
+                    <div class="order-form-wrapper">
+                        <label class="order-form-fild-label" for="user-name">
+                            <input class="order-form-fild-input" type="text" name="user-name" id="user-name"
+                                pattern="[a-zA-Zа-яА-ЯіІїЇєЄйЙ']+" placeholder="Enter your full name" required>
+                        </label>
+                    </div>
+                    <div class="order-form-wrapper">
+                        <label class="order-form-fild-label" for="user-mail">
+                            <input class="order-form-fild-input" type="email" name="user-mail" id="user-mail"
+                                placeholder="Enter your email" required>
+                        </label>
+                    </div>
+
+                    <div class="order-form-wrapper-comment">
+                        <label class="order-form-fild-label" for="user-comment">
+                            <textarea class="order-form-comment" name="user-comment" id="user-comment"
+                                placeholder="Comments"></textarea>
+                        </label>
+                    </div>
+                    <button class="order-form-btn" type="submit">
+                        send
+                        <svg class="order-form-btn-icon" width="26" height="21">
+                            <use href="../images/sprint.svg#arrow">
+                            </use>
+                        </svg>
+
+                    </button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</section>
