@@ -1,0 +1,191 @@
+/*=================ABOUT US MOBILE STYLES==================*/
+
+.about-section {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.about-section-container {
+    background-color: var(--dark);
+    max-width: 704px;
+    padding-bottom: 62px;
+    margin-bottom: 18px;
+    background-image: url(../img/mobile/mobile-about-orn-x1.png);
+    background-repeat: no-repeat;
+    background-position-x: 129px;
+    background-position-y: bottom;
+    /* background-size: 459px 408px; */
+}
+
+.about-section-title {
+    color: var(--white);
+    font-size: 32px;
+    line-height: 1.37;
+    letter-spacing: -0.03em;
+}
+
+.about-section-list {
+    text-align: left;
+    font-size: 14px;
+    line-height: normal;
+    letter-spacing: -0.04em;
+    margin-bottom: 50px;
+    color: rgba(252, 249, 249, 0.4);
+}
+
+.about-section-item {
+    margin-bottom: 20px;
+}
+
+.about-section-image {
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-section-text {
+    display: none;
+}
+
+/* Styling the Disclosure Widgets */
+
+@media screen and (max-width: 767px) {
+    details>summary {
+        background-color: rgba(252, 249, 249, 0.1);
+        cursor: pointer;
+        padding: 0.5rem 1rem;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .disclosure-widgets:hover,
+    .disclosure-widgets:focus {
+        color: rgb(180, 180, 180);
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    details>summary>* {
+        display: inline;
+    }
+
+    details>p {
+        border-radius: 5px;
+        box-shadow: 3px 3px 4px rgba(252, 249, 249, 0.1);
+    }
+
+    details>div {
+        border: 2px solid rgba(252, 249, 249, 0.1);
+        padding: 1rem;
+    }
+
+    details>summary {
+        background-color: rgba(252, 249, 249, 0.1);
+        cursor: pointer;
+        padding: 0.5rem 1rem;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .disclosure-widgets:hover,
+    .disclosure-widgets:focus {
+        color: rgb(180, 180, 180);
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    details>summary>* {
+        display: inline;
+    }
+
+    details>p {
+        border-radius: 5px;
+        box-shadow: 3px 3px 4px rgba(252, 249, 249, 0.1);
+    }
+
+    details>div {
+        border: 2px solid rgba(252, 249, 249, 0.1);
+        padding: 1rem;
+    }
+}
+
+/* Styling the Disclosure Widgets */
+
+/*=================ABOUT US MOBILE STYLES==================*/
+
+/*=================ABOUT US TABLET STYLES==================*/
+
+@media screen and (min-width: 768px) {
+    .about-section-container {
+        max-width: 704px;
+        padding-bottom: 50px;
+        margin-bottom: 50px;
+        box-sizing: content-box;
+        background-image: url(../img/tablet/Desk1440-1280-tablet-about-ornament-x1.png);
+        background-repeat: no-repeat;
+        background-position-x: 400px;
+        background-position-y: bottom;
+        background-size: 545px 484px;
+    }
+
+    .about-section {
+        width: 704px;
+    }
+
+    .about-section-title {
+        font-size: 44px;
+        line-height: 1.45;
+        letter-spacing: -0.03em;
+    }
+
+    .disclosure-widgets {
+        display: none;
+    }
+
+    .about-section-text {
+        display: block;
+    }
+
+    .about-section-list {
+        font-size: 16px;
+        letter-spacing: -0.04em;
+        margin-bottom: 40px;
+    }
+
+    .about-section-image {
+        max-width: 704px;
+    }
+}
+
+/*=================ABOUT US TABLET STYLES==================*/
+
+/*=================ABOUT US DESKTOP STYLES==================*/
+
+@media screen and (min-width: 1280px) {
+    .about-section-container {
+        max-width: 1080px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        padding-bottom: 80px;
+        margin-bottom: 70px;
+        background-image: url(../img/desk1280/Desk1440-1280-tablet-about-ornament-x1.png);
+        background-repeat: no-repeat;
+        background-position-x: 895px;
+        background-position-y: bottom;
+        background-size: 545px 484px;
+    }
+
+    .about-section {
+        width: 436px;
+    }
+
+    .about-image-container {
+        display: flex;
+    }
+
+    .about-section-image {
+        max-width: 594px;
+    }
+}
+
+/*=================ABOUT US DESKTOP STYLES==================*/
