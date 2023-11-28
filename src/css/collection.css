@@ -125,6 +125,7 @@
  
   
   .collection-square {
+    position: absolute;
     top: 233px;
     left: -28px;
   }
