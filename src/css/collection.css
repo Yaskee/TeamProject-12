@@ -1,0 +1,143 @@
+.collection-container {
+    position: relative;
+    background-color: var(--dark);
+    margin-bottom: 80px;
+  }
+  
+  .collection-logo {
+    color: #fcf9f9;
+    font-size: 32px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.4;
+    letter-spacing: 0.03em;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  @media screen and (min-width: 768px) {
+    .collection-logo {
+      color: #fcf9f9;
+      font-family: Manrope;
+      font-size: 44px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 1.5;
+      letter-spacing: 0.03em;
+    }
+  }
+  
+  .collection-item {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+  
+    row-gap: 20px;
+  }
+  @media screen and (min-width: 768px) {
+    .collection-item {
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+  }
+  @media screen and (min-width: 1280px) {
+    .collection-item {
+      flex-direction: row;
+      flex-wrap: wrap;
+      column-gap: 20px;
+      row-gap: 40px;
+    }
+  }
+  
+  .collection-list {
+    align-items: flex-start;
+    gap: 18px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .collection-list {
+      width: calc((100% - 20px) / 2);
+    }
+  }
+  @media screen and (min-width: 1280px) {
+    .collection-list {
+      width: calc((100% - 40px) / 3);
+    }
+  }
+  .collection-img {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .collection-name-price {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 18px;
+    gap: 8px;
+  }
+  
+  .collection-name {
+    overflow: hidden;
+    color: #fcf9f9;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .collection-name {
+      font-size: 18px;
+      width: 342px;
+      font-size: 18px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+  
+  .collection-price {
+    color: rgba(252, 249, 249, 0.4);
+  
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.03em;
+  }
+  @media screen and (min-width: 768px) {
+    .collection-price {
+      font-size: 18px;
+    }
+  }
+  .section-collection {
+    background-image: url(./images/mobile/mobile-collection-orn-x1.png);
+    background-repeat: no-repeat;
+  }
+  
+  .collection-square {
+    top: 233px;
+    left: -28px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .collection-square {
+      top: 230px;
+      left: -52px;
+    }
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .collection-square {
+      top: 233px;
+      left: 0;
+    }
+  }
+  
+  
