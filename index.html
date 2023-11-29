@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
     
     <script type="module" crossorigin src="/vanilla-app-template/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/vanilla-app-template/assets/index-25224316.css">
+    <link rel="stylesheet" href="/vanilla-app-template/assets/index-93b52420.css">
   </head>
   <body>
     <header class="header">
@@ -23,17 +23,17 @@
         <img src="/vanilla-app-template/assets/logo-3d215253.svg" alt="" width="44" height="39" />
       </a>
       <ul class="nav-menu">
-        <li class="nav-menu-list"><a class="nav-list" href="#about-us"></a>About us</li>
+        <li class="nav-menu-list"><a class="nav-list smooth-scroll" href="#about-us">About us</a></li>
         <li class="nav-menu-list">
-          <a class="nav-list" href="#our-collection"></a>Our collection
+            <a class="nav-list smooth-scroll" href="#our-collection">Our collection</a>
         </li>
         <li class="nav-menu-list">
-          <a class="nav-list" href="#customer-order"></a>Customer order
+            <a class="nav-list smooth-scroll" href="#customer-order">Customer order</a>
         </li>
         <li class="nav-menu-list">
-          <a class="nav-list" href="#testimonials"></a>Testimonials
+            <a class="nav-list smooth-scroll" href="#testimonials">Testimonials</a>
         </li>
-      </ul>
+    </ul>
     </nav>
     <div class="contact-menu">
       <address class="menu-address">
@@ -304,7 +304,7 @@
 </section>
       <section class="container testimonials-container">
   <div class="testimonials-main-container">
-      <h2 class="testimonials-main-title">Testimonials</h2>
+      <h2 class="testimonials-main-title" id="testimonials">Testimonials</h2>
       <ul class="testimonials-list">
 
 <div class="testimonials-list-item">
@@ -354,29 +354,36 @@
 
     </main>
     <footer class="page-footer">
-    <div class="footer-conteiner container">
-        <nav class="nav-footer">
-            <ul class="nav-menu-footer">
-                <div class="first-colum">
-                    <li class="nav-menu-list"><a class="nav-list" href="#about-us"></a>About us</li>
-                    <li class="nav-menu-list">
-                        <a class="nav-list" href="#our-collection"></a>Our collection
-                    </li>
-                </div>
-                <div class="second-colum">
-                    <li class="nav-menu-list">
-                        <a class="nav-list" href="#customer-order"></a>Customer order
-                    </li>
-                    <li class="nav-menu-list">
-                        <a class="nav-list" href="#testimonials"></a>Testimonials
-                    </li>
-                </div>
-
-            </ul>
-        </nav>
-        <p class="text-footer">A touch of <span class="text-accent"> Ukrainian </span> culture in every embroidery</p>
-    </div>
+  <div class="footer-conteiner container">
+    <nav class="nav-footer">
+      <ul class="nav-menu-footer">
+        <div class="first-colum">
+          <li class="nav-menu-list">
+            <a class="nav-list smooth-scroll" href="#about-us">About us</a>
+          </li>
+          <li class="nav-menu-list">
+            <a class="nav-list smooth-scroll" href="#our-collection"
+              >Our collection</a
+            >
+          </li>
+        </div>
+        <div class="second-colum">
+            <li class="nav-menu-list">
+                <a class="nav-list smooth-scroll" href="#customer-order">Customer order</a>
+            </li>
+            <li class="nav-menu-list">
+                <a class="nav-list smooth-scroll" href="#testimonials">Testimonials</a>
+            </li>
+        </div>
+      </ul>
+    </nav>
+    <p class="text-footer">
+      A touch of <span class="text-accent"> Ukrainian </span> culture in every
+      embroidery
+    </p>
+  </div>
 </footer>
+
     <!-- <section class="menu">
 <div class="mobile-menu is-open">
     <div class="container mobile-menu-container">
@@ -400,7 +407,24 @@
 </div>
 </section>  -->
 
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     
+    <script>
+      $(document).ready(function(){
+          $(".smooth-scroll").on('click', function(event) {
+              if (this.hash !== "") {
+                  event.preventDefault();
+
+                  var hash = this.hash;
+
+                  $('html, body').animate({
+                      scrollTop: $(hash).offset().top
+                  }, 800, function(){
+                      window.location.hash = hash;
+                  });
+              }
+          });
+      });
+  </script>
   </body>
 </html>
