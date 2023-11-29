@@ -1,10 +1,5 @@
 /* ============== FOOTER MOBILE STYLES ============== */
 .page-footer {
-    background-color: var(--dark);
-    background-image: url(../img/mobile/mobile-footer-orn-x1.png);
-    background-repeat: no-repeat;
-    background-position: center bottom;
-    background-size: contain;
     border-top: 1px solid rgba(252, 249, 249, 0.10);
 }
 
@@ -12,6 +7,11 @@
     padding-top: 40px;
     padding-bottom: 40px;
     min-height: 649px;
+    background-color: var(--dark);
+    background-image: url(../img/mobile/mobile-footer-orn-x1.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: contain;
 }
 
 .nav-menu-list {
@@ -72,7 +72,7 @@
 @media screen and (min-resolution: 192dpi) and (max-width: 767px),
 screen and (min-resolution: 2dppx) and (max-width: 767px),
 screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px) {
-    .page-footer {
+    .footer-conteiner {
         background-image: url(../img/mobile/mobile-footer-orn-x2.png);
     }
 }
@@ -97,6 +97,10 @@ screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px) {
 
     .footer-conteiner{
         min-height: auto;
+        background-image: url(../img/tablet/tablet-footer-ornament-x1.png);
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-size: 176px 370px;
     }
 
     .nav-footer {
@@ -113,17 +117,14 @@ screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px) {
 
     .page-footer {
         background-color: var(--dark);
-        background-image: url(../img/tablet/tablet-footer-ornament-x1.png);
-        background-repeat: no-repeat;
-        background-position: right top;
-        background-size: 176px 370px;
+        
     }
 }
 
 @media screen and (min-resolution: 192dpi) and (min-width: 768px),
 screen and (min-resolution: 2dppx) and (min-width: 768px),
 screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px) {
-    .page-footer {
+    .footer-conteiner {
         background-image: url(../img/tablet/tablet-footer-ornament-x2.png);
     }
 }
@@ -139,19 +140,23 @@ screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px) {
         min-width: 754px;
     }
 
-    .page-footer {
-        background-color: var(--dark);
+    .footer-conteiner{
         background-image: url(../img/desk1280/Desk1440-1280-footer-ornament-x1.png);
         background-repeat: no-repeat;
         background-position: right top;
         background-size: 334px 370px;
+    }
+
+    .page-footer {
+        background-color: var(--dark);
+        
     }
 }
 
 @media screen and (min-resolution: 192dpi) and (min-width: 1280px),
 screen and (min-resolution: 2dppx) and (min-width: 1280px),
 screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1280px) {
-    .page-footer {
+    .footer-conteiner {
         background-image: url(../img/desk1280/Desk1440-1280-footer-ornament-x2.png);
     }
 }
