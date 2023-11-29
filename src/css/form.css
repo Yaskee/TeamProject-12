@@ -135,13 +135,13 @@ border-color: #ECD979;
   border: 1px solid #ecd979;
 }
 
-/* @media screen and (min-resolution: 192dpi),
+@media screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx),
   screen and (min-device-pixel-ratio: 2) {
   .hero-section {
     background-image: url(../img/mobile/mobile-bg-girl-x1.jpg);
   }
-} */
+}
 
 @media screen and (min-width: 320px) and (max-width: 375px) {
   .form-container {
@@ -215,13 +215,13 @@ border-color: #ECD979;
     border-radius: 4px;
   }
 }
-/* @media screen and (min-resolution: 192dpi),
+@media screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx),
   screen and (min-device-pixel-ratio: 2) {
   .hero-section {
     background-image: url(../img/tablet/tablet-bg-girl-x2.jpg);
   }
-} */
+}
 /*################### desktop style #########################*/
 @media screen and (min-width: 1280px) {
   .form-container {
@@ -258,10 +258,10 @@ border-color: #ECD979;
   }
 }
 
-/* @media screen and (min-resolution: 192dpi),
+@media screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx),
   screen and (min-device-pixel-ratio: 2) {
   .hero-section {
     background-image: url(../img/desk1280/Desk1280-bg-girl-x2.jpg);
   }
-} */
+}
