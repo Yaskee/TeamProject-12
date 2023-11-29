@@ -11,6 +11,7 @@
 .footer-conteiner {
     padding-top: 40px;
     padding-bottom: 40px;
+    min-height: 649px;
 }
 
 .nav-menu-list {
@@ -92,6 +93,10 @@ screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px) {
         max-width: none;
         flex-wrap: nowrap;
         gap: 25px;
+    }
+
+    .footer-conteiner{
+        min-height: auto;
     }
 
     .nav-footer {
