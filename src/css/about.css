@@ -186,6 +186,10 @@
     .about-section-image {
         max-width: 594px;
     }
+
+    .title-container {
+        padding-top: 45px;
+    }
 }
 
 /*=================ABOUT US DESKTOP STYLES==================*/
