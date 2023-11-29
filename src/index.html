@@ -24,7 +24,24 @@
     </main>
     <load src="partials/footer.html" />
     <load src="partials/modal.html" />
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="module" src="/main.js"></script>
+    <script>
+      $(document).ready(function(){
+          $(".smooth-scroll").on('click', function(event) {
+              if (this.hash !== "") {
+                  event.preventDefault();
+
+                  var hash = this.hash;
+
+                  $('html, body').animate({
+                      scrollTop: $(hash).offset().top
+                  }, 800, function(){
+                      window.location.hash = hash;
+                  });
+              }
+          });
+      });
+  </script>
   </body>
 </html>
