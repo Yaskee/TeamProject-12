@@ -1,14 +1,17 @@
-
-/* ============== MOBILE MENU ============== */
 .mobile-menu {
     position: fixed;
     top: 0;
     left: 0;
-    width: 274px;
+    width: 100%;
     height: 100%;
-    z-index: 99999999999999999;
+    background-color: #ECD979;
+    z-index: 99999999999999;
     transform: translateX(100%);
     transition: transform 250ms linear;
+    background-image: url(../img/mobile/mobile-menu-orn-x1.png);
+    background-repeat: no-repeat;
+    background-position-x: 0;
+    background-position-y: 561px;
 }
 
 .mobile-menu.is-open {
@@ -17,25 +20,6 @@
 
 .mobile-menu-container {
     position: relative;
-    /* padding-top: 20px;
-    padding-right: 20px;
-    padding-left: 20px;
-    display: flex;
-    flex-direction: column;
-    height: 100%; */
-}
-
-.menu {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 274px;
-    height: 100%;
-    z-index: 999999999999;
-    background-image: url(../img/mobile/mobile-menu-orn-x1.png);
-    background-repeat: no-repeat;
-    background-position-x: 0;
-    background-position-y: 561px;
 }
 
 .mobile-menu-tel {
@@ -92,16 +76,8 @@
 }
 
 @media screen and (min-width: 768px) {
-    .body {
-        width: 380px;
-    }
-
     .mobile-menu {
-        width: 380px;
-    }
-
-    .menu {
-        width: 380px;
+        width: 100%;
         background-image: url(../img/tablet/tablet-menu-ornament-x1.png);
         background-position-y: 660px;
     }
@@ -123,5 +99,11 @@
     .mobile-menu-list {
         /* padding: 186px 20px 185px 130px; */
         margin: 223px 20px 223px 223px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .mobile-menu {
+        display: none;
     }
 }
